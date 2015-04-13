@@ -775,7 +775,7 @@ p.quote {
 /* PAGE SECTIONS
 --------------------------------------------------------*/
 
-.page {
+#about.page {
 	padding: 25px 0;
 	position: relative;
 	background: #ffffff;
@@ -783,6 +783,34 @@ p.quote {
 	z-index:6;
 	overflow:hidden;
 }
+
+#services.page {
+	padding: 30px 0;
+	position: relative;
+	background: #ffffff;
+	text-align:center;
+	z-index:6;
+	overflow:hidden;
+}
+
+#portfolio.page {
+	padding: 25px 0;
+	position: relative;
+	background: #ffffff;
+	text-align:center;
+	z-index:6;
+	overflow:hidden;
+}
+
+#contact.page {
+	padding: 25px 0;
+	position: relative;
+	background: #ffffff;
+	text-align:center;
+	z-index:6;
+	overflow:hidden;
+}
+
 .page.multipage {
 	text-align: left;
 	padding: 30px 0 0;
@@ -793,6 +821,9 @@ p.quote {
 #team.page {
 	position:static;
 }
+
+
+
 /*======== TITLE SECTION ========*/
 
 .title {
