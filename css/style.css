@@ -3,7 +3,7 @@
 Resets
 --------------------------------------------------------*/
 html, body {
-	height: 100%;
+	height: auto;
 }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -45,11 +45,11 @@ BEGIN THEME STYLESHEET
 }
 
 ::-moz-selection {
- background: #FFD600;
+ background: #FF6100;
  color: white;
 }
 ::selection {
-	background: #FFD600;
+	background: #FF6100;
 	color: white;
 }
 a, a:visited, a:hover {
@@ -127,7 +127,7 @@ img {
 	height: auto;
 }
 a {
-	color: #FFD600;
+	color: #FF6100;
 	text-decoration: none;
 	outline: 0;
 	-webkit-transition: all 0.2s ease;
@@ -137,7 +137,7 @@ a {
 	transition: all 0.2s ease;
 }
 .highlight {
-	color: #FFD600;
+	color: #FF6100;
 }
 a:hover, a:focus {
 	color: #666666;
@@ -314,10 +314,11 @@ nav .container .four.columns {
 }
 nav .container .twelve.columns {
 	float: right;
-	width: auto
+	width: auto;
+	margin-top: 13px;
 }
 .main-menu, .logo {
-	height: 50px;
+	height: 50px; 
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -327,14 +328,15 @@ nav .container .twelve.columns {
 .logo a {
 	display: block;
 	margin: auto;
+	margin-top: 5px;
 }
 .main-menu li {
 	display: inline;
-	margin-left: 30px;
+	margin-left: 30px; 
 }
 .main-menu a {
 	font-family: 'BebasNeueRegular', sans-serif;
-	font-size: 22px;
+	font-size: 24px;
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -343,14 +345,14 @@ nav.light .main-menu a {
 	color: inherit;
 }
 nav.light .main-menu a:hover, nav.dark .main-menu a:hover {
-	color: #FFD600;
+	color: #FF6100;
 	transition: color 0.5s;
 	-moz-transition: color 0.5s;
 	-webkit-transition: color 0.5s;
 	-o-transition: color 0.5s;
 }
 nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
-	color: #FFD600;
+	/*color: #FF6100;*/
 }
 .main-menu a i {
 	margin-right: 3px;
@@ -386,7 +388,7 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 	color: #ffffff;
 }
 .home1 .slabtextdone .slabtext.second-child {
-	background: #FFD600;
+	background: #FF6100;
 	padding: 15px 10px 0;
 	display: inline-block;
 	width: auto;
@@ -428,16 +430,16 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 /*-----------------------------------------------------------------------------------*/
 
 .home3 .home-text-wrapper .container {
-	width: 500px;
-	height: 500px;
+	width: 400px;
+	height: 400px;
 	border-radius: 50%;
-	background: rgba(0, 0, 0, 0.81);
+	background: rgba(50, 50, 50, 0.6);
 	text-align: center;
 	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-	box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.24);
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+/*	box-shadow: 0px 0px 0px 5px rgba(250, 250, 250, 0.8); */
 	overflow: hidden;
 }
 
@@ -447,35 +449,40 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 }
 .home3 .home-quote {
 	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.9s ease-in-out;
+	-o-transition: all 0.9s ease-in-out;
+	-ms-transition: all 0.9s ease-in-out;
+	transition: all 0.9s ease-in-out;
 	display: table-cell;
 	vertical-align: middle;
 	height: inherit;
 	text-align: center;
 	width: inherit;
 	overflow: hidden;
-	color: white;
+	color: #ffffff;
+}
+.home3 .slabtext {
+	color: #ffffff;
+	text-shadow: 1px 1px #333;
 }
 .home3 .slabtextdone {
 	color: #ffffff;
+	text-shadow: 1px 1px #333;
 }
 .home3 .slabtextdone .slabtext.second-child {
 	display: inline-block;
 	width: auto;
-	color: #FFD600;
-	text-shadow: none;
+	color: #ff6100;
+	text-shadow: 2px 2px #222222;
 	overflow: hidden;
 }
 .home3 .home-text-wrapper .container:hover {
-	-webkit-transform: scale(1.09);
-	-moz-transform: scale(1.09);
-	-o-transform: scale(1.09);
-	-ms-transform: scale(1.09);
-	transform: scale(1.09);
-	box-shadow: 0px 0px 0px 15px rgba(255, 255, 255, 0.24);
+	-webkit-transform: scale(1.10);
+	-moz-transform: scale(1.10);
+	-o-transform: scale(1.10);
+	-ms-transform: scale(1.10);
+	transform: scale(1.10);
+/*	box-shadow: 0px 0px 0px 15px rgba(255, 255, 255, 0.24); */
 	-webkit-transform-style: preserve-3d;
 	overflow: hidden;
 }
@@ -510,7 +517,7 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 	box-shadow: 0px 0px 0px 20px rgba(255, 255, 255, 0.32);
 }
 .home4 .slabtextdone .slabtext.second-child {
-	background: #FFD600;
+	background: #FF6100;
 	padding: 15px 10px 0;
 	display: inline-block;
 	width: auto;
@@ -595,7 +602,7 @@ p.quote {
 	margin: 0 5px;
 }
 .parallax .quote i {
-	color: #FFD600;
+	color: #FF6100;
 }
 .quote-author {
 	height: 24px;
@@ -634,7 +641,7 @@ p.quote {
 	color: #ffffff;
 	display: inline-block;
 	padding: 17px;
-	background: #FFD600;
+	background: #FF6100;
 	border-radius: 50%;
 	box-shadow: 0px 0px 0px 4px rgb(255, 255, 255);
 }
@@ -699,7 +706,7 @@ p.quote {
 	color: #ffffff;
 	display: inline-block;
 	padding: 17px;
-	background: #FFD600;
+	background: #FF6100;
 	border-radius: 50%;
 	box-shadow: 0px 0px 0px 4px rgb(255, 255, 255);
 }
@@ -730,7 +737,7 @@ p.quote {
 --------------------------------------------------------*/
 
 .bg4 {
-	background-image: url(../images/parallax/parallax4.jpg);
+	background-image: url(../images/parallax/parallax0.jpg);
 }
 /*--------------------------------------------------------
 /* COLOR BLOCK SECTION
@@ -739,12 +746,12 @@ p.quote {
 .color-block {
 	width: 100%;
 	height: 450px;
-	background-color: #FFD600;
-	background: -moz-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -webkit-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -o-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -ms-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
+	background-color: #FF6100;
+	background: -moz-radial-gradient(center center, circle cover, #FF6100 0%, #E2BE01 100%);
+	background: -webkit-radial-gradient(center center, circle cover, #FF6100 0%, #E2BE01 100%);
+	background: -o-radial-gradient(center center, circle cover, #FF6100 0%, #E2BE01 100%);
+	background: -ms-radial-gradient(center center, circle cover, #FF6100 0%, #E2BE01 100%);
+	background: radial-gradient(center center, circle cover, #FF6100 0%, #E2BE01 100%);
 	position: relative;
 	overflow: hidden;
 	color: #ffffff;
@@ -762,14 +769,14 @@ p.quote {
 	text-align: center;
 }
 .color-block a, .color-block .quote i, .color-block .quote-author, .color-block .twitter-date a, .color-block .twitter-author a, .color-block .testimonial-slider .title span, .color-block .client-info {
-	color: #000000;
+	color: #FFFFFF;
 }
 /*--------------------------------------------------------
 /* PAGE SECTIONS
 --------------------------------------------------------*/
 
 .page {
-	padding: 60px 0;
+	padding: 25px 0;
 	position: relative;
 	background: #ffffff;
 	text-align:center;
@@ -790,6 +797,7 @@ p.quote {
 
 .title {
 	text-align: center;
+	font-family: Tahoma, sans-serif;
 }
 .title h1 {
 	line-height: 0.8;
@@ -797,10 +805,7 @@ p.quote {
 	line-height: 0.8;
 	display: inline-block;
 	padding: 10px 10px 3px;
-	background: #FFD600;
-	color: #fff;
-	border: 4px solid #ffffff;
-	box-shadow: 0px 0px 0px 3px #FFD600;
+	color: #FF6100;
 }
 .multipage .title h1 {
 	margin: 60px 0 40px;
@@ -817,6 +822,22 @@ p.quote {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+.myself {
+	text-align: left;
+}
+.myself p {
+	margin: 50px 0;
+}
+.subtitle img {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-right: 30px;
+	border: 1px #ccc solid;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
 
 
 /*======== HOME SECTION ========*/	
@@ -830,18 +851,18 @@ p.quote {
 	z-index:10;
 }
 .home-gradient {
-	background-color: #FFD600;
-	background: -moz-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -webkit-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -o-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -ms-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
+	background-color: #FF6100;
+	background: -moz-radial-gradient(center center, circle cover, #FF6100 0%, #E2BE01 100%);
+	background: -webkit-radial-gradient(center center, circle cover, #FF6100 0%, #E2BE01 100%);
+	background: -o-radial-gradient(center center, circle cover, #FF6100 0%, #E2BE01 100%);
+	background: -ms-radial-gradient(center center, circle cover, #FF6100 0%, #E2BE01 100%);
+	background: radial-gradient(center center, circle cover, #FF6100 0%, #E2BE01 100%);
 }
 .home-parallax {
-	background: url(../images/parallax/parallax4.jpg) fixed;
+	background: url(../images/parallax/parallax0.jpg) fixed;
 	background-size: cover;
 	background-position: center top;
-	background-color: #FFD600;
+	background-color: #FF6100;
 }
 /*======== HOME LOGO ========*/	
 #home h1 {
@@ -868,13 +889,14 @@ p.quote {
 	line-height: 1;
 	padding: 5px 25px 0;
 	border: 5px solid;
-	color: inherit;
+	color: #000000;
+	opacity: 0.6;
 }
 .home-logo-text.light a {
 	color: rgba(255,255,255,0.9);
 }
 .home-logo-text a:hover {
-	color: #ffffff;
+	opacity: 1;
 }
 .slabtextdone {
 	line-height: 0.8;
@@ -937,7 +959,7 @@ p.quote {
 	border: 2px solid;
 }
 #filters ul li a:hover h3, #filters ul li a.active h3 {
-	color: #FFD600;
+	color: #FF6100;
 }
 /*==== PORTFOLIO AJAX NAVIGATION =====*/
 #project-navigation {
@@ -984,10 +1006,10 @@ p.quote {
 	transition: all 0.3s ease-in-out;
 }
 #project-navigation ul li#prevProject a:hover, #project-navigation ul li#nextProject a:hover {
-	background-color: #FFD600;
+	background-color: #FF6100;
 }
 #project-navigation ul li a:hover {
-	background-color: #FFD600;
+	background-color: #FF6100;
 }
 #project-navigation ul li a.disabled, #project-navigation ul li a.disabled:hover {
 	cursor: default;
@@ -1013,7 +1035,7 @@ p.quote {
 	border-radius: 3px;
 }
 #closeProject a:hover {
-	background: #FFD600;
+	background: #FF6100;
 }
 #closeProject a i {
 	font-size: 14px;
@@ -1141,7 +1163,7 @@ p.quote {
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	background: #FFD600;
+	background: #222222;
 }
 .portfolio > a, .portfolio > a:hover {
 	color: #ffffff;
@@ -1267,7 +1289,7 @@ p.quote {
 	color: #151515;
 }
 .post-title a:hover {
-	color: #FFD600;
+	color: #FF6100;
 }
 .post-tags {
 	margin-top: 20px;
@@ -1300,7 +1322,7 @@ p.quote {
 	text-decoration: none;
 }
 .post-tags li a:hover {
-	color: #FFD600;
+	color: #FF6100;
 }
 .post-meta {
 	font-size: 11px;
@@ -1342,7 +1364,7 @@ p.quote {
 	text-decoration: none;
 }
 .tags-list li a:hover {
-	color: #FFD600;
+	color: #FF6100;
 }
 .blog-tweet {
 	font-size: 11px;
@@ -1377,12 +1399,12 @@ p.quote {
 	color: #151515;
 }
 .pages li a.current {
-	border-top: 2px solid #FFD600;
-	border-bottom: 2px solid #FFD600;
+	border-top: 2px solid #FF6100;
+	border-bottom: 2px solid #FF6100;
 	color: #1c1f26;
 }
 .pages li a:hover {
-	color: #FFD600;
+	color: #FF6100;
 }
 .pagination a.previous, .pagination a.next {
 	height: 24px;
@@ -1399,7 +1421,7 @@ p.quote {
 	text-align: center;
 }
 .pagination a.previous:hover, .pagination a.next:hover {
-	background-color: #FFD600;
+	background-color: #FF6100;
 	color: white;
 }
 .pagination a.previous {
@@ -1515,10 +1537,10 @@ p.quote {
 .contact-box {
 	width: 100%;
 	text-align: center;
-	padding: 45px 0px 60px;
+	padding: 55px 0px 60px;
 }
 .contact-details {
-	width: 70%;
+	width: 90%;
 	padding: 5px 0;
 	margin: 0 auto 10px;
 }
@@ -1535,9 +1557,9 @@ p.quote {
 	width: 100%;
 	margin-top: 30px;
 	padding: 40px 0;
-	background: #FFD600;
+	background: #FF6100;
 	color: rgba(0, 0, 0, 0.7);
-	font-size: 11px;
+	font-size: 12px;
 }
 .copyright a {
 	color: inherit;
@@ -1546,6 +1568,7 @@ p.quote {
 	display: inline-block;
 	text-align: center;
 	margin-bottom: 30px;
+	opacity: 0.9;
 }
 .copyright .social-icons {
 	text-align: center;
@@ -1560,6 +1583,9 @@ p.quote {
 	border-radius: 3px;
 	margin-bottom: 30px;
 }
+.copyright p {
+	color:#FFFFFF;
+}
 /*=== CONTACT FORM ELEMENTS ===*/
 #contact-input {
 	overflow: hidden;
@@ -1570,7 +1596,7 @@ p.quote {
 #contact-input input {
 	border: 1px solid #e8e8e8;
 	width: 90%;
-	font-size: 13px;
+	font-size: 14px;
 	color: #747474;
 	padding: 20px 2%;
 	float: left;
@@ -1581,7 +1607,7 @@ p.quote {
 	border: 1px solid #e8e8e8;
 	width: 95%;
 	height: 92px;
-	font-size: 13px;
+	font-size: 14px;
 	color: #747474;
 	padding: 20px 11px 10px;
 	border-radius: 2px;
@@ -1624,6 +1650,9 @@ p.quote {
 	float: right;
 	height:57px;
 	line-height:57px;
+}
+#contact-submit input[type="submit"]:hover{
+	background-color: #333;
 }
 input[type="text"], input[type="password"], input[type="email"], textarea, select {
 	background: #fff;
@@ -1846,7 +1875,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 /* ------------------------------------------------------------------------ */
 
 nav.colored, nav.light.colored {
-	background: #ffd600;
+	background: #FF6100;
 	box-shadow: 0px 4px 15px rgba(0,0,0,0.07);
 	border-bottom: 0px;	
 }

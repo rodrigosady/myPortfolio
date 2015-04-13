@@ -779,18 +779,18 @@ $(window).load(function(){
 			slideshowSpeed: 3500,
 			animationDuration: 500,
 			directionNav: true,
-			controlNav: false,						
+			controlNav: true,						
 			useCSS: false
 		  });
 	 }
 	$('.flexslider').flexslider({						
 			animation: "slide",
 			direction: "horizontal", 
-			slideshow: false,
-			slideshowSpeed: 3500,
+			slideshow: true,
+			slideshowSpeed: 4000,
 			animationDuration: 500,
 			directionNav: true,
-			controlNav: false
+			controlNav: true
 				
 	 });
 	 
@@ -854,10 +854,10 @@ $(window).load(function(){
   
  $('#home-slider.flexslider').flexslider({						
 		animation: "swing",
-		direction: "vertical", 
+		direction: "horizontal", 
 		slideshow: true,
 		slideshowSpeed: 3500,
-		animationDuration: 1000,
+		animationDuration: 2000,
 		directionNav: false,
 		controlNav: true,
 		smootheHeight:true,

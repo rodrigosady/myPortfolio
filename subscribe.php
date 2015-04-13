@@ -4,7 +4,7 @@
   $emailsFile = 'email-list.txt';
 
   //ENTER YOUR EMAIL ADDESS TO GET NOTIFIED EVERY TIME A SUBSCRIPTION IS DONE BY THE VISITORS.
-  $myEmail = '';
+  $myEmail = 'rodrigosady@gmail.com';
 
 
   ob_start();

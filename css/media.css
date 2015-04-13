@@ -41,17 +41,17 @@ and (orientation : portrait) {
 
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+
 h1 {
 	font-size: 80px;
 }
 .main-menu li, .main-menu.iconic li {
-	margin-left:20px;
+	margin-left:34px;
 }
 
 .main-menu a {
-	font-size:18px;
+	font-size:24px;
 }
-
 
 .testimonial-slider .flex-direction-nav li .flex-next, .twitter-slider .flex-direction-nav li .flex-next {
 	right:44%;
@@ -74,13 +74,31 @@ h1 {
 }
 
 .title h1 {
-	font-size:40px;
+	font-size:50px;
 }
 
 .subtitle {
 	font-size:18px;
 	margin-bottom:0;
 }
+
+.subtitle p {
+	width: 100%;
+	font-size:15px;
+}
+
+.subtitle p ~ p {
+	font-size:20px;
+}
+
+.subtitle img {
+	margin-bottom: 24px;
+}
+
+.myself p {
+	line-height: 1.4;
+}
+
 .modal {
 	position:absolute;
 	top:0px;
@@ -136,6 +154,10 @@ h1 {
 	padding-bottom: 40px;
 }
 
+.page#services {
+	padding-bottom: 0px;
+}
+
 #slidecaption {
 	display:none;
 }
@@ -185,7 +207,8 @@ nav .container .columns, nav .cotainer .column, #ajaxpage .columns, #ajaxpage .c
 	float:left;
 }
 
-.copyright .social-icons .social-icon {
+.social-icons .social-icon {
+	margin-right:20px;
 	margin-bottom:10px;
 }
 
@@ -289,6 +312,9 @@ a#button-newsletter {
 	font-size:24px;
 	min-width:auto;
 }
+.selectnav {
+	text-align: right;
+}
 #portfolio-wrap .one-third {
     width: 100%;
 }
@@ -316,7 +342,7 @@ nav .container {
 	display:block;
 }
 .home-logo-text a {
-	font-size:90px;
+	font-size:70px;
 }
 .slider-text {
 	width: 100%;
