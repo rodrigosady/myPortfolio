@@ -23,5 +23,3 @@ build/*
 # Exclude Fonts
 _fonts/
 
-# Exclude mySite
-.mySite\
