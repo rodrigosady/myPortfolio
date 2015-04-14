@@ -324,7 +324,7 @@ jQuery(window).load(function(){
 	 // Twitter feed
 	  if ($('#twitter-feed').length) {
 		$('#twitter-feed').tweet({
-				username: 'envato',
+				username: 'rodrigosady',
 				join_text: 'auto',
 				avatar_size: 0,
 				count: 4
@@ -338,7 +338,7 @@ jQuery(window).load(function(){
 	   // Twitter feed
 	  if ($('#twitter-widget').length) {
 		$('#twitter-widget').tweet({
-				username: 'envato',
+				username: 'rodrigosady',
 				join_text: 'auto',
 				avatar_size: 0,
 				count: 4
