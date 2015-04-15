@@ -392,9 +392,11 @@ blockquote p {
 	padding-top: 20px;
 	margin-bottom: 10px;
 }
+
 .service-features p {
 	font-size: 15px;
 }
+
 .service-features .img-container {
 	padding: 25px 45px;
 	border-radius: 3px;

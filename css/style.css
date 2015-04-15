@@ -641,14 +641,17 @@ p.quote {
 	color: #ffffff;
 	display: inline-block;
 	padding: 17px;
-	background: #FF6100;
+	background: #333333;
 	border-radius: 50%;
-	box-shadow: 0px 0px 0px 4px rgb(255, 255, 255);
+	box-shadow: 0px 0px 0px 1px rgb(255, 255, 255);
 }
 .twitter-author {
 	text-transform: uppercase;
 	font-family: 'BebasNeueRegular', sans-serif;
 	font-size: 25px;
+}
+.twitter-author a {
+	color: #333333;
 }
 #twitter-feed ul.slides > li {
 	font-family: 'Oswald', sans-serif;
@@ -776,7 +779,7 @@ p.quote {
 --------------------------------------------------------*/
 
 #about.page {
-	padding: 25px 0;
+	padding: 12px 0 10px 0;
 	position: relative;
 	background: #ffffff;
 	text-align:center;
@@ -785,7 +788,7 @@ p.quote {
 }
 
 #services.page {
-	padding: 30px 0;
+	padding: 12px 0 12px 0;
 	position: relative;
 	background: #ffffff;
 	text-align:center;
@@ -794,7 +797,7 @@ p.quote {
 }
 
 #portfolio.page {
-	padding: 25px 0;
+	padding: 12px 0 20px 0;
 	position: relative;
 	background: #ffffff;
 	text-align:center;
@@ -803,7 +806,7 @@ p.quote {
 }
 
 #contact.page {
-	padding: 25px 0 0 0;
+	padding: 12px 0 0;
 	position: relative;
 	background: #ffffff;
 	text-align:center;
@@ -1533,7 +1536,7 @@ p.quote {
 #comment-input input {
 	border: 1px solid #e8e8e8;
 	width: 28%;
-	font-size: 13px;
+	font-size: 14px;
 	color: #747474;
 	padding: 8px 2%;
 	float: left;
@@ -1544,7 +1547,7 @@ p.quote {
 	border: 1px solid #e8e8e8;
 	width: 96%;
 	height: 150px;
-	font-size: 13px;
+	font-size: 14px;
 	color: #747474;
 	padding: 8px 11px;
 	border-radius: 2px;
@@ -1568,7 +1571,7 @@ p.quote {
 .contact-box {
 	width: 100%;
 	text-align: center;
-	padding: 55px 0px 60px;
+	padding: 55px 0px 80px;
 }
 .contact-details {
 	width: 90%;
@@ -1607,7 +1610,7 @@ p.quote {
 .copyright .social-icons .social-icon {
 	display: inline-block;
 	float: none;
-	margin: 0 5px 5px 0;
+	margin: 0 20px 10px 0;
 	background-color: rgba(0,0,0,0.05) !important;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -1617,6 +1620,11 @@ p.quote {
 .copyright p {
 	color:#FFFFFF;
 }
+
+.social-icons .social-icon {
+	margin: 0 20px 10px 0;
+}
+
 /*=== CONTACT FORM ELEMENTS ===*/
 #contact-input {
 	overflow: hidden;
@@ -1631,18 +1639,18 @@ p.quote {
 	color: #747474;
 	padding: 20px 2%;
 	float: left;
-	margin: 0 1% 2%;
+	margin: 0 1% 4%;
 	border-radius: 2px;
 }
 #contact-textarea textarea {
 	border: 1px solid #e8e8e8;
 	width: 95%;
-	height: 92px;
+	height: 103px;
 	font-size: 14px;
 	color: #747474;
 	padding: 20px 11px 10px;
 	border-radius: 2px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 }
 #contact-input input:last-child {
