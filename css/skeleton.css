@@ -150,8 +150,8 @@
         .container .fourteen.columns,
         .container .fifteen.columns,
         .container .sixteen.columns,
-        .container .one-third.column,
         .container .two-thirds.column  { width: 300px; }
+
 
         /* Offsets */
         .container .offset-by-one,
@@ -169,7 +169,6 @@
         .container .offset-by-thirteen,
         .container .offset-by-fourteen,
         .container .offset-by-fifteen { padding-left: 0; }
-
     }
 
 
@@ -200,8 +199,8 @@
         .container .fourteen.columns,
         .container .fifteen.columns,
         .container .sixteen.columns,
-        .container .one-third.column,
         .container .two-thirds.column { width: 420px; }
+        .container .one-third.column { width: auto; }
     }
 
 

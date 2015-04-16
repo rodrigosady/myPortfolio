@@ -806,7 +806,7 @@ p.quote {
 }
 
 #contact.page {
-	padding: 12px 0 0;
+	padding: 12px 0 0px;
 	position: relative;
 	background: #ffffff;
 	text-align:center;
@@ -863,9 +863,10 @@ p.quote {
 	margin: 50px 0;
 }
 .subtitle img {
-	width: 300px;
+	width: 280px;
 	height: 300px;
 	float: left;
+	margin-left: 4.555%;
 	margin-right: 30px;
 	border: 1px #ccc solid;
 	-webkit-border-radius: 7px;
@@ -893,6 +894,8 @@ p.quote {
 	background: radial-gradient(center center, circle cover, #FF6100 0%, #E2BE01 100%);
 }
 .home-parallax {
+	width: 100%;
+	height: auto;
 	background: url(../images/parallax/parallax0.jpg) fixed;
 	background-size: cover;
 	background-position: center top;
@@ -1590,7 +1593,7 @@ p.quote {
 .copyright {
 	width: 100%;
 	margin-top: 30px;
-	padding: 40px 0;
+	padding: 50px 0;
 	background: #FF6100;
 	color: rgba(0, 0, 0, 0.7);
 	font-size: 12px;
@@ -1618,7 +1621,7 @@ p.quote {
 	margin-bottom: 30px;
 }
 .copyright p {
-	color:#FFFFFF;
+	color:#eeeeee;
 }
 
 .social-icons .social-icon {

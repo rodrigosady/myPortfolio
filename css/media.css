@@ -1,6 +1,84 @@
 /*--------------------------------------------------------
 MEDIA QUERIES
 --------------------------------------------------------*/
+@media only screen and (min-width: 961px) and (max-width: 1023px) {
+
+h1 {
+	font-size: 60px;
+}
+
+.subtitle img {
+	width: 20%;
+	height: auto;
+	margin-left: 5.5%;
+}
+
+.subtitle {
+	font-size: 17px;
+	line-height: 1.4;
+	margin-bottom: 0px;
+}
+.myself p {
+	width: 95%;
+	margin: 5px 0 30px;
+}
+
+.social-icons .social-icon {
+	margin: 15px 14px 10px 0;
+}
+
+.fullwidth {
+	padding: 2px 0 12px;
+	margin: 0px 0 10px;
+}
+
+.service-features h3 {
+	font-size: 25px;
+	margin-bottom: 0px;
+}
+
+.service-box {
+	margin-top: 15px;
+	padding: 10px 15px 0px;
+}
+
+.service-box h3 {
+	font-size: 26px;
+}
+
+.service-description {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+}
+
+.row {
+	margin-bottom: 0px;
+}
+
+.contact-box {
+	padding: 30px 0px 0px;
+}
+
+#contact-input input {
+	margin: 0 1% 1.5%;
+}
+
+#contact-input input ~ input {
+	margin: 0 1% 1.5%;
+}
+
+#contact-textarea textarea {
+	height: 90px;
+	padding: 20px 11px 10px;
+	margin-bottom: 10px;
+}
+
+.copyright-logo a {
+	margin-bottom: 20px;
+}
+
+}
 @media only screen and (max-width: 960px) {
 #portfolio-wrap .one-third {
 	width:33.33%;
@@ -62,10 +140,12 @@ h1 {
 .subtitle img {
 	width: 30%;
 	height: auto;
+	margin-left: 3.3%;
 }
 
 .myself p {
-	margin: 20px 0;
+	width: 95%;
+	margin: 5px 0 30px;
 }
 
 .myself p ~ p {
@@ -101,7 +181,8 @@ h1 {
 }
 
 .service-description {
-    font-size: 14px;
+    margin-bottom: 20px;
+    font-size: 12px;
 }
 
 .row {
@@ -123,30 +204,32 @@ h1 {
 
  @media only screen and (max-width: 767px) {
 h1 {
-	font-size: 54px;
+	font-size: 64px;
 	line-height: 1;
 }
 
 .title h1 {
-	font-size:50px;
+	font-size:64px;
 }
 
 .subtitle {
+	width: 100%;
 	font-size:18px;
 	margin-bottom:0;
 }
 
 .subtitle p {
-	width: 100%;
-	font-size:15px;
+	font-size:20px;
+	font-weight: 400;
 }
 
 .subtitle p ~ p {
-	font-size:20px;
+	font-size:22px;
 }
 
 .subtitle img {
 	margin-bottom: 24px;
+	margin-left: 0%;
 }
 
 .myself p {
@@ -200,7 +283,7 @@ h1 {
 
 #home {
 	height: auto !important;
-	padding: 60px 0;
+	padding: 160px 0 110px;
 }
 
 .page {
@@ -208,8 +291,19 @@ h1 {
 	padding-bottom: 40px;
 }
 
-.page#services {
-	padding-bottom: 0px;
+#about.page {
+	padding: 120px 0 10px 0;
+}
+
+#services.page {
+	position: relative;
+	top: -180px;
+	padding: 120px 0 10px 0;
+}
+
+#portfolio.page {
+	padding: 120px 0 20px 0;
+	top: -280px;
 }
 
 #slidecaption {
@@ -261,8 +355,42 @@ nav .container .columns, nav .cotainer .column, #ajaxpage .columns, #ajaxpage .c
 }
 
 .social-icons .social-icon {
-	margin-right:20px;
-	margin-bottom:10px;
+	margin:10px 25px 15px 0;
+}
+
+.service-features {
+	display: none;
+}
+.parallax {
+	display: none;
+}
+
+.service-box {
+	width: auto;
+	margin-bottom: -20px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+.service-box h3 {
+	font-size: 30px;
+}
+
+.service-description {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+i.service-icon.icon-print {
+	display: none;
+}
+
+i.service-icon.icon-laptop {
+	display: none;
+}
+
+i.service-icon.icon-film {
+	display: none;
 }
 
 .copyright p {
@@ -324,7 +452,6 @@ nav .container .columns, nav .cotainer .column, #ajaxpage .columns, #ajaxpage .c
    width: 100%;
    margin:0;
    margin-bottom:40px;
-   float:none;
 }
 
 .parallax-bg, .home-parallax {
@@ -433,19 +560,4 @@ nav .container {
 .home4 .home-text-wrapper .container {
     width: 65%;
 }
-
-#contact-input input {
-	margin: 0 1% 6%;
-	border-radius: 3px;
 }
-
-#contact-textarea textarea {
-	border: 1px solid #e8e8e8;
-	width: 95%;
-	height: 103px;
-	font-size: 14px;
-	color: #747474;
-	padding: 20px 11px 10px;
-	border-radius: 2px;
-	margin-bottom: 20px;
-}}
