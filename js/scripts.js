@@ -221,8 +221,8 @@ $(function() {
 				columnNumb = 4;
 			} else if (winWidth > 600) {
 				columnNumb = 3;
-			} else if (winWidth > 300) {
-				columnNumb = 1;
+			} else if (winWidth > 400) {
+				columnNumb = 4;
 			}
 			
 			return columnNumb;

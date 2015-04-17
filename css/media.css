@@ -545,7 +545,7 @@ a#button-newsletter {
 }
 
 #portfolio.page {
-	padding: 120px 0 0px 0;
+	padding: 120px 0 33px 0;
 }
 
 #contact.page {
@@ -554,18 +554,6 @@ a#button-newsletter {
 
 #contact-textarea {
 	margin: 0px 1% 3px;
-}
-
-#portfolio-wrap  {
-	border: 1px dashed #333;
-	width: 100%;
-	height: auto;
-}
-.portfolio-item.one-third {
-	display: inline;
-}
-.portfolio a {
-	width:30%;
 }
 
 .portfolio-overlay .thumb-info i {
@@ -584,19 +572,24 @@ a#button-newsletter {
  @media only screen and (max-width: 479px) {
 
 .page-wrap {
-	height: 1000px;
+	height: 1700px;
+}
+
+#home {
+	height: auto !important;
+	padding: 85px 0;
 }
 
 .home-parallax {
 	background: url(../images/parallax/parallax0mb.jpg) fixed no-repeat;
 }
+
 .logo.large a {
-	width: 65%;
+	width: 70%;
 	height: auto;
 }
 nav .container {
 	width: 100%;
-	border-bottom: 1px solid #ccc;
 }
 .home-logo, .home-logo-text {
 	display: none;
@@ -605,8 +598,8 @@ nav .container {
 	text-align: right;
 	width:150px;
 	background-size:30px;
-	margin: 14px 16px 0 0;
-	font-size:20px;
+	margin: 12px 16px 0 0;
+	font-size:24px;
 	min-width:auto;
 }
 
@@ -615,9 +608,7 @@ nav .container {
 }
 
 .home3 .home-text-wrapper .container {
-	width:50%;
-	height:auto;
-	margin-top: -90px;
+	display: none;
 }
 
 .home3#home h1 {
@@ -625,42 +616,50 @@ nav .container {
 	margin:0 10px;
 }
 #about.page {
-	padding: 25px 0 10px;
+	top: 15px;
+	padding: 15px 0 10px;
 }
 .subtitle img {
 	width: 35%;
 	height: auto;
-	margin-bottom: 0px;
-	margin-left: 0%;
+	margin: 5px 5% 0 6%;
 }
 .subtitle p {
-	font-size:12px;
+	width: 100%;
+	font-size:13px;
 	line-height: 1.4;
-	margin-bottom: 10px; 
+	padding-top: 3px;
+	margin-bottom: 8px;
+	margin-right: 3%;
 }
 .subtitle p ~ p {
-	font-size:11px;
+	font-size:14px;
 	clear: none;
-	margin-top: 0px;
+	margin-top: 5px;
 }
 .social-icons .social-icon {
-	margin:0px 10px 0px 0;
+	margin:0px 1px 0px 0;
 }
 #services.page {
-	top: 0px;
-	padding: 5px 0 100px;
+	top: -50px;
+	padding: 40px 0 25px;
 }
+
 .fullwidth {
-	padding: 10px 0 10px;
+	padding: 20px 0 10px;
 	margin: 10px 0 10px;
 }
 .mobo-service {
 	display: none;
 }
+.container .columns, .container .column {
+	margin-bottom:10px;
+}
+
 .service-box {
-	clear: none;
-	width: 100%;
-	margin-bottom: 0px;
+	width: 83%;
+	margin: 0 0 0px 6%;
+
 	padding-top: 5px;
 	padding-bottom: 0px;
 }
@@ -671,19 +670,19 @@ nav .container {
 
 .service-description {
     margin-bottom:0px;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 #portfolio.page {
 	top: -100px;
-	padding: 65px 0 110px;
+	padding: 65px 0 10px;
 }
 
 #filters {
-	top:-40px;
+	top:-10px;
 	margin-bottom: 0px;
-	text-align:left;
-	width: 110%;
+	text-align:center;
+	width: 100%;
 }
 
 #filters ul li a h3 {
@@ -708,9 +707,60 @@ nav .container {
 	font: 10px/1.4 "Tahoma" important;
 }
 
-.portfolio a {
-	width:25%;
+#contact.page {
+	top: -100px;
+	padding: 70px 0 0px;
 }
+.contact-box {
+	position: relative;
+	top: -15px;
+	margin: 0px 0px 0px;
+	display: inline;
+}
+#contact-input {
+	float: left;
+	width: 30%;
+	margin-left: 5%;
+}
+#contact-input input {
+	font-size: 13px;
+	color: #747474;
+	padding: 9px 3% 9px 3%;
+	margin: 0 1% 4%;
+	border-radius: 0px;
+}
+#contact-input input ~ input {
+	margin: 0 1% 4%;
+}
+#contact-textarea textarea {
+	float: right;
+	border: 1px solid #e8e8e8;
+	width: 53%;
+	height: 50px;
+	font-size: 14px;
+	color: #747474;
+	padding: 9px 3% 9px;
+	border-radius: 0px;
+	margin: -130px 0px 0px 0px;
+}
+
+#contact-submit input[type="submit"] {
+	padding: 9px 3% 9px;
+	margin: -57px 25px 0px 0px;
+	border: 0 none;
+	color: #ffffff;
+	display: block;
+	width: 55%;
+	float: right;
+	height:35px;
+	line-height:57px;
+}
+
+.copyright {
+	margin-top: 0px;
+	padding: 15px 0;
+}
+
 #back-to-top a {
 	display: none;
 }
@@ -724,6 +774,36 @@ a#button-newsletter {
     width: 92%;
 }
 }
+ @media only screen and (max-width: 319px) {
+
+#home {
+	height: auto !important;
+	padding: 420px 0;
+	zoom:1.5;
+}
+
+#about.page {
+	top: 0px;
+	padding: 50px 0 10px 0;
+}
+
+.subtitle p {
+	font-size:16px;
+	line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
 
  @media only screen and (min-width: 1200px) {
 nav .container {
