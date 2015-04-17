@@ -177,7 +177,7 @@
 
     /* Note: Design for a width of 480px */
 
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
+    @media only screen and (max-width: 767px) {
         .container { width: 420px; }
         .container .columns,
         .container .column { margin: 0; }
@@ -200,10 +200,12 @@
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .two-thirds.column { width: 420px; }
-        .container .one-third.column { width: auto; }
+        .container .one-third.column { width: 100%; }
     }
 
-
+    @media only screen and (max-width: 580px) {
+        .container { width: 100%; }
+    }
 /* #Clearing
 ================================================== */
 
