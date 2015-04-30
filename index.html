@@ -1,13 +1,12 @@
 <!DOCTYPE HTML>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en">  <!--<![endif]-->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-gb"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-gb"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-gb"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-gb">  <!--<![endif]-->
 <head>
 
   <!-- META DATA -->
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <meta charset="UTF-8">
   <title>Rodrigo Sady :: Portfolio</title>
   <meta name="description" content="Web Designer based in Sao Paulo, Brazil. Extensive experience in Web Design and Front-End Development. Making websites since 2000, I am available for jobs."/>
   <meta name="keywords" content="freelance, web, designer, portfolio, front, end, developer"/>
@@ -29,12 +28,13 @@
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet" href="css/social.css" type="text/css">             
   <link rel="stylesheet" href="css/flexslider.css" type="text/css"> 
-  <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen"/><!-- PrettyPhoto -->  
-  <link rel="stylesheet" href="css/font-awesome.css" type="text/css"/><!-- PrettyPhoto -->  
-  <link rel="stylesheet" href="css/shortcodes.css" type="text/css"/>      
+  <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen"><!-- PrettyPhoto -->  
+  <link rel="stylesheet" href="css/font-awesome.css" type="text/css"><!-- PrettyPhoto -->  
+  <link rel="stylesheet" href="css/shortcodes.css" type="text/css">      
   <link rel="stylesheet" href="css/media.css" type="text/css"><!-- Media Queries -->
-  <link id="primary_color_scheme" href="css/colors/orange.css" rel="stylesheet" type="text/css"/>      
-       
+  <link rel="stylesheet" href="css/colors/orange.css" type="text/css" id="primary_color_scheme">
+  <link rel="stylesheet" href="contact.php">
+  
     <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -123,8 +123,8 @@
                       <div class="social-icon social-email"><a href="mailto:contact@rodrigosady.com.br" target="_blank" data-original-title="Email">Email</a></div>
                       <div class="social-icon social-skype"><a href="skype:rodrigo.sady?call" target="_blank" data-original-title="Skype">Skype</a></div>
                       <div class="social-icon social-linkedin"><a href="http://br.linkedin.com/pub/rodrigo-sady/19/154/6b5" target="_blank" data-original-title="Linkedin">Linkedin</a></div>
-                      <div class="social-icon social-twitter"><a href="http://twitter.com/rodrigosady" target="_blank" data-original-title="Twitter">Twitter</a></div>
-                      <div class="social-icon social-youtube"><a href="http://www.youtube.com/user/rsady" target="_blank" data-original-title="Youtube">Youtube</a></div>
+                      <div class="social-icon social-twitter"><a href="https://twitter.com/rodrigosady" target="_blank" data-original-title="Twitter">Twitter</a></div>
+                      <div class="social-icon social-youtube"><a href="https://www.youtube.com/user/rsady" target="_blank" data-original-title="Youtube">Youtube</a></div>
                     </div>
                 </div><!-- END SUBTITLE -->
           </div><!-- END TITLE -->                               
@@ -675,7 +675,7 @@
       <div class="contact-box">
         <!-- START CONTACT FORM -->
          <div id="contact-form">      
-            <form action="#" method="post">
+            <form action="contact.php" method="post">
            
                 <div id="contact-input">
                  <!--[if IE]>
